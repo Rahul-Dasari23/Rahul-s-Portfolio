@@ -1,0 +1,185 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/49bf90f81f.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/work2.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> <span>FROND END DESIGNER</span></p>
+                <h1>Hi,Iam <span>Boney Rahul</span></h1>
+            </div>
+        </div>
+        
+    </div>
+    <!-----------------------about--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/work8.jpg"></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Iam BoneyRahul.I'm from Nellore.Iam pursuing my B.tech in GEETHANJALI INSTITUTE OF SCIENCE AND TECHNOLOGY
+                        in the stream of ECE. I had completed my SSC at DR. CV RAMAN EM HIGH SCHOOL.I had completed my intermediate 
+                        education at NARAYANA JR COOLEGE.I had learned the FRONT END by using the Html and Css as well as javascript.
+                        And im thriving to learn the BACKEND by using mongo db,Django.Iam insterested in sports like cricket And
+                        Basket ball.My hobbies are playing games,reading novels.My idol is ROHIT SHARMA.And finally my aim is 
+                        TO BECOME RICH.
+                    </p>
+                    <div class="tab-titiles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>HTML AND CSS</span><br>Designing web page</li>
+                            <li><span>JAVASCRIPT</span><br>Development of web page</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2023-current</span><br>HTML AND CSS trained by BlackBucks Team</li>
+                            <li><span>2023-current</span><br>Javascript trained by BlackBucks</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2021-2025</span><br>Studied at Geethanjali institute of science and technology</li>
+                            <li><span>2019-2021</span><br>completed intermediate on mpc in Narayana jr.college</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!----------------services----------->
+    <div id="Services">
+        <h1 class="sub-title">MY Services</h1>
+        <div class="Services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>HTML AND CSS</h2><br>
+                <P>By using the html and i can design a website .</P>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>JAVASCRIPT</h2><br>
+                <P>By using the all three html and css and javascript <br>
+                    i can develop a front end of a website .</P>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+        
+
+    </div>
+    <!------------------------------portfolio----------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MY Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work4.jpeg">
+                    <div class="layer">
+                        <h3> Digital voting machine</h3>
+                        <p>This voting machine perform the right systamatic way to vote. And it never duplicates the other persons vote
+                            download it from playstore</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work1.jpeg">
+                    <div class="layer">
+                        <h3>Rythu bazzar app</h3>
+                        <p>The app connects you to all rythu bazzar near you or may far away from you 
+                            and deliver the items you had ordered with in the limited time into your doorstep
+                            download it from playstore</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">see more</a>
+            
+        </div>
+    </div>
+    <!---------------------------------------------------------contact------------------------------------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact dboneyr@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Verilog code for JK Flipflop-212U1A0424.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ BoneyRahul made by<i class="fa-solid fa-heart"></i> BoneyRahul</p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+ </body>
+ </html> 
